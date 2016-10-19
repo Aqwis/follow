@@ -7,10 +7,13 @@ Unfortunately, while object detection should work under any OS, due to time cons
 ## How to use
 
 To compile:
-```cd build/<os>
+
+```
+cd build/<os>
 cmake ../..
 make
-make install```
+make install
+```
 
 OpenCV 2.4.8 or newer is required to compile the project. The code used for communication on the Arduino is given in the
 file `ArduinoKode.cpp`.
